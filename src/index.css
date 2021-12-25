@@ -1,0 +1,49 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+/**
+ * Containers
+ */
+.nav-container,
+.quiz-container {
+    padding: 0;
+}
+
+.content-container {
+    margin-top: 1rem;
+}
+
+/**
+ * Form
+ */
+form.form-striped {
+    border: rgba(0,0,0,.05) 1px solid;
+}
+
+form.form-striped div.form-group:nth-of-type(odd) {
+    background-color: rgba(0,0,0,.05);
+}
+
+.form-group {
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.form-group label.form-label {
+    color: #59849f;
+    font-weight: 500;
+}
+
+.form-group .options {
+    font-size: 0.9rem;
+}
+
+/**
+ * Media
+ */
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "number": 0,
+    "label": "If you see the following import in a file, what is being used for state management in the component?",
+    "options": [
+      "React Hooks",
+      "stateful components",
+      "math",
+      "class components"
+    ],
+    "correctOption": 1
+  },
+  {
+    "number": 1,
+    "label": "If you want to import just the Component from the React library, what syntax do you use?",
+    "options": [
+      "import React.Component from 'react'",
+      "import [ Component ] from 'react'",
+      "import Component from 'react'",
+      "import { Component } from 'react'"
+    ],
+    "correctOption": 4
+  },
+  {
+    "number": 2,
+    "label": "What is the testing library most often associated with React?",
+    "options": ["Mocha", "Chai", "Sinon", "Jest"],
+    "correctOption": 4
+  },
+  {
+    "number": 3,
+    "label": "What is the name of the tool used to take JSX and turn it into createElement calls?",
+    "options": ["JSX Editor", "Babel", "ReactDOM", "Browser Buddy"],
+    "correctOption": 2
+  },
+  {
+    "number": 4,
+    "label": " A representation of a user interface that is kept in memory and is synced with the Real DOM is called what?",
+    "options": ["virtual DOM", "DOM", "virtual elements", "shadow DOM"],
+    "correctOption": 1
+  },
+  {
+    "number": 5,
+    "label": "To create a constant in JavaScript, which keyword do you use?",
+    "options": ["Let", "constant", "const", "var"],
+    "correctOption": 3
+  },
+  {
+    "number": 6,
+    "label": "In which lifecycle method do you make requests for data in a class component?",
+    "options": [
+      "constructor",
+      "componentDidMount",
+      "componentWillReceiveProps",
+      "componentWillMount"
+    ],
+    "correctOption": 2
+  }
+]
